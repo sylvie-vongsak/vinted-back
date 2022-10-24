@@ -1,7 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const fileUpload = require("express-fileUpload");
+const fileUpload = require("express-fileupload");
 const cloudinary = require("cloudinary").v2;
+require("dotenv").config();
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
