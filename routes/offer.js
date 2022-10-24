@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-const mongoose = require("mongoose");
 const fileUpload = require("express-fileUpload");
 const cloudinary = require("cloudinary").v2;
 
