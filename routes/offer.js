@@ -22,7 +22,7 @@ router.post(
       //console.log(req.body);
       // 1 Créer une offre en DB sans photo sans ref
       // 2 Créer une offre en DB avec une photo et toujours sans ref
-      // 3  Créer une offre en DB avec une photo et avec une ref
+      // 3  Créer une offre en DB avec une photo et avec une ref.
 
       const convertToBase64 = (file) => {
         return `data:${file.mimetype};base64,${file.data.toString("base64")}`;
